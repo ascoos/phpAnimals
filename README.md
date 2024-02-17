@@ -1,7 +1,6 @@
-# animals
-PHP Animals Age
+# PHP Animals
 
-Dog and Cat ages in Human age.
+Dog and Cat ages in Human age.....
 
 ***
 
