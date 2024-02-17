@@ -1,0 +1,41 @@
+{
+    "name": "phpAnimals",
+    "description": "PHP Animals.",
+    "version": "1.0.4",
+    "license":"AGL-F (Ascoos General License - Free)",
+    "homepage": "https://apps.ascoos.com/phpAnimals",
+    "authors": [
+        {
+            "name": "Drogidis Christos",
+            "homepage": "https://www.ascoos.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ascoos/phpAnimals/issues",
+        "source": "https://github.com/ascoos/phpAnimals"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "ascoos/phpAnimals",
+                "version": "1.0.0",
+                "type": "library",
+                "dist": [
+                    {
+                        "url": "https://dl.ascoos.com/pub/phpAnimals/phpAnimals-latest.zip",
+                        "type": "zip"
+                    },
+                    {
+                        "url": "https://github.com/ascoos/phpAnimals/releases/download/phpAnimals-1.0.0/phpAnimals-1.0.0.zip",
+                        "type": "zip"
+                    }
+                ]
+            }
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    }    
+}
